@@ -1,0 +1,21 @@
+/* Your API key is: 4bfa3c1bce9d4543b8dff418a641238b */
+
+.custom-button {
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+
+  /* App.css or your custom CSS file */
+body {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-dark {
+    background-color: #343a40; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa; /* Light mode background color */
+    color: #212529; /* Light mode text color */
+  }
+  

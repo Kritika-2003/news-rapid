@@ -26,7 +26,7 @@
 //         <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
 //         <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
 
-//       </ul>
+//    </ul>
     
 //     </div>
 //   </div>
@@ -107,3 +107,5 @@ export class Navbar extends Component {
 }
 
 export default Navbar;
+
+

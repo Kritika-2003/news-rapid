@@ -23,13 +23,13 @@ export default class App extends Component {
    
     return (
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <Navbar/>
         
         <Switch>
         
           <Route exact path="/"><News key='general' pageSize={15} country="in" category='general'/></Route>
-            <Route exact path="/business"><News key='business' pageSize={15} country="in" category='business'/></Route>
+          <Route exact path="/business"><News key='business' pageSize={15} country="in" category='business'/></Route>
           <Route exact path="/general"><News key='entertainment' pageSize={15} country="in" category='general'/></Route>
           <Route exact path="/entertainment"><News key='general' pageSize={15} country="in" category='entertainment'/></Route>
           <Route exact path="/health"><News key='health' pageSize={15} country="in" category='health'/></Route>

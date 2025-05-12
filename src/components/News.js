@@ -5,14 +5,16 @@ import propTypes from 'prop-types';
 
 import InfiniteScroll from "react-infinite-scroll-component";
 
-
 export class news extends Component {
+
+ 
  static defaultProps={
   country:'in',
   pageSize:8,
   category:'general',
 
  }
+ 
  static propTypes={
   country:propTypes.string,
   pageSize:propTypes.number,
@@ -35,18 +37,18 @@ export class news extends Component {
     document.title=`${this.capitalizeFirstLetter(this.props.category)} - RAPID REPORT `;
   }
 
-  async UpdateNews(pageNo){
-    const url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4bfa3c1bce9d4543b8dff418a641238b&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+  async UpdateNews(){
+    const url=`https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=4071ca0c850643afb1babcf16971a5a1&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({loading:true});
     let data=await fetch(url);
     let parseddata=await data.json()
-    this.setState({articles:parseddata.articles,
+    this.setState({
+      articles:parseddata.articles,
       totalResults:parseddata.totalResults,
       loading:false,
    })
     
   }
-
 
 
 
@@ -73,8 +75,7 @@ this.UpdateNews();
 fetchMoreData = async() => {
  
  this.setState({page:this.state.page+1})
- const url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4bfa3c1bce9d4543b8dff418a641238b&page=${this.state.page}&pageSize=${this.props.pageSize}`;
-
+ const url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=4071ca0c850643afb1babcf16971a5a1&page=${this.state.page}&pageSize=${this.props.pageSize}`;
  let data=await fetch(url);
  let parseddata=await data.json()
  this.setState({

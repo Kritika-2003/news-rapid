@@ -1,32 +1,20 @@
-{
+
+  {
     "status": "ok",
-    "totalResults": 4,
+    "totalResults": 3,
     "articles": [
       {
         "source": {
-          "id": "handelsblatt",
-          "name": "Handelsblatt"
+          "id": "news-com-au",
+          "name": "News.com.au"
         },
         "author": null,
-        "title": "Imran Khan: Pakistans inhaftierter Ex-Premier schickt KI-Klon in den Wahlkampf",
-        "description": "The country's most popular politician is in prison. Nevertheless, former cricket star Imran Khan is shaking up the election campaign.",
-        "url": "https://www.handelsblatt.com/politik/international/imran-khan-pakistans-inhaftierter-ex-premier-schickt-ki-klon-in-den-wahlkampf/100013056.html",
-        "urlToImage": "https://www.onthisday.com/images/people/imran-khan.jpg?w=360"
-        "publishedAt": "2024-02-06T14:53:03+00:00",
-        "content": "Der populärste Politiker des Landes ist im Gefängnis. Dennoch mischt der frühere Cricket-Star Imran Khan den Wahlkampf auf."
-      },
-      {
-        "source": {
-          "id": "al-jazeera-english",
-          "name": "Al Jazeera English"
-        },
-        "author": "Kevin Hand, Manasi Pathak",
-        "title": "LIVE: India vs South Africa – ICC Under-19 Cricket World Cup semifinal",
-        "description": "Follow our live updates and commentary as defending champions India bowl first against hosts South Africa in Benoni.",
-        "url": "https://www.aljazeera.com/sports/liveblog/2024/2/6/live-india-vs-south-africa-under-19-world-cup-semifinal-cricket-commentary",
-        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/02/Naman-Tiwari-of-India-in-bowling-action-during-the-ICC-U19-Mens-Cricket-World-Cup-South-Africa-2024-Semi-Final-match-between-India-and-South-Africa-at-Willowmoore-Park-on-February-06-2024-in-Benoni-South-Africa-1707209612.jpg?resize=1920%2C1440",
-        "publishedAt": "2024-02-06T06:15:23Z",
-        "content": "blinking-dot\r\nLive updatesLive updates, \r\nFollow our live updates and commentary as defending champions India bowl first against hosts South Africa in Benoni."
+        "title": "SCG given surprise official ICC rating",
+        "description": "The SCG pitch which produced a short but scintillating three-day Test between Australia and India was given the second top ranking of ‘satisfactory” by the International Cricket Council despite Australian opener Usman Khawaja calling it a “stinker”.",
+        "url": "https://www.news.com.au/sport/cricket/worst-ive-seen-scg-deck-learns-its-fate-as-series-pitches-reviewed/news-story/5388765621b8548b7a5074ebaf6ad9a5",
+        "urlToImage": "https://content.api.news/v3/images/bin/164e93117a6e09bc2caf5b7243a7f892",
+        "publishedAt": "2025-01-08T07:30:00Z",
+        "content": "The SCG pitch which produced a short but scintillating three-day Test between Australia and India was given the second top ranking of ‘satisfactory” by the International Cricket Council despite Austr… [+3468 chars]"
       },
       {
         "source": {
